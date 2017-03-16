@@ -1,0 +1,19 @@
+cxx_binary(
+  name = 'sanity',
+  srcs = [
+    'test_sanity.c',
+  ],
+  deps = [
+    '//:cubeb',
+  ],
+)
+
+cxx_binary(
+  name = 'tone',
+  srcs = [
+    'test_tone.c',
+  ],
+  deps = [
+    '//:cubeb',
+  ],
+)

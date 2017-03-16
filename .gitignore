@@ -41,3 +41,8 @@ test/test_sanity.exe
 test/test_tone
 test/test_tone.exe
 include/cubeb/cubeb-stdint.h
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
